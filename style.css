@@ -3,6 +3,10 @@ body {
   width: 500px;
   margin: 50px auto;
   color: #444;
+   background-image: url('happybirthday.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 h1, h2 { font-weight: 400; }
