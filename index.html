@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <title>Happy Bday</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        if ("geolocation" in navigator) {
+  // check if geolocation is supported/enabled on current browser
+  navigator.geolocation.getCurrentPosition(
+   function success(position) {
+     // for when getting location is a success
+     console.log('latitude', position.coords.latitude, 
+                 'longitude', position.coords.longitude);
+   },
+  function error(error_message) {
+    // for when getting location results in an error
+    console.error('An error has occured while retrieving
+                  location', error_message)
+  }  
+});</script>
 </head>
 <body class="fadeIn" background="happybirthday.jpg" background-repeat: no-repeat;
 >
