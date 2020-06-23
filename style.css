@@ -10,7 +10,7 @@ body {
   background-size: cover;
 }
 
-h1, h2 { font-weight: 400;style="font-size: 25px;" }
+h1, h2 { font-weight: 400; font-size: 25px; }
 p, li { line-height: 23px; font-size: 15px;}
 a { color: steelBlue; }
 a:not(:hover) { text-decoration: none; }
